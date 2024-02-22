@@ -245,3 +245,6 @@ builder.Services.AddDbContext<LibraryContext>(options =>
  <br>
   
 ![Azure Data Studio Screenshot](<Pictures/Screenshot 2024-02-21 at 20.35.05.png>)
+
+#### Thats it, you are all set.
+I Hope this helped and please reach out if you beleive theres is any mistakes that needs fixing
