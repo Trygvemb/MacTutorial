@@ -60,7 +60,7 @@
 - Change the `sql2022` to the name you want your container to have
 - Change `MySQLHost` to the host name you want to have
 - Change `<YourStrong@Passw0rd>` with a personal password. This will be used to login into you database in Azure Data Studio and VSCode
-![docker commands in terminal](<Screenshot 2024-02-21 at 15.53.13.png>)
+![docker commands in terminal](<Picture/Screenshot 2024-02-21 at 15.53.13.png>)
 
 - You are probably getting the following warning `WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested` but as long as you container is running fine its not a problem.
 
@@ -75,12 +75,12 @@
 
 #### Docker desptop
 - See your containers and copy the container id from here (dont worry if the names are different)
-![Docker desktop gui with highlighting of container and container id](<Screenshot 2024-02-21 at 16.06.21.png>)
+![Docker desktop gui with highlighting of container and container id](<Pictures/Screenshot 2024-02-21 at 16.06.21.png>)
 
 - You can start and stop docker containers from the gui, but in this tutorial we will be using the terminal, so press the stop button and opent the terminal.
 
 - To make sure docker is running your container write the following in the terminal `docker ps` to see if its running if there is no running container write `docker start < container id>` then run `docker ps` again to see if its running, if you still cant see it, then go back to the docker section or use ChatGPT
-![Terminal running docker commands](<Screenshot 2024-02-21 at 14.43.26.png>)
+![Terminal running docker commands](<Pictures/Screenshot 2024-02-21 at 14.43.26.png>)
 
 ### Docker CLI Commands
 - **docker run < name >**(runs image or container with the name)
@@ -98,7 +98,7 @@
 - Use localhost for Server, 
 - sa for User 
 - And the password you made when starting the docker connection
-- <img alt="shows two ways to add a new connection in Azure data studio" src="Screenshot 2024-02-21 at 14.51.38.png " width="500" height="400">  <img alt="Azure data studio new connection screenshot" src="Screenshot 2024-02-21 at 15.00.20.png" width="400" height="400">
+- <img alt="shows two ways to add a new connection in Azure data studio" src="Pictures/Screenshot 2024-02-21 at 14.51.38.png " width="500" height="400">  <img alt="Azure data studio new connection screenshot" src="Pictures/Screenshot 2024-02-21 at 15.00.20.png" width="400" height="400">
   
    
  <br>
@@ -112,7 +112,7 @@
   
 
 
- <img alt="Azure data studio new connection screenshot" src="Screenshot 2024-02-21 at 16.28.27.png" width="200" height="200">
+ <img alt="Azure data studio new connection screenshot" src="Pictures/Screenshot 2024-02-21 at 16.28.27.png" width="200" height="200">
   
    
  <br>
@@ -128,7 +128,7 @@
  - In this example i will go to the root folder using `cd` then into my repoes folder using `cd repoes` then make a new folder called Test using `mkdir Test` then get a list of my folders using `ls`then navigate into that folder i want to run my code in in this example i dont want to use the Test folder but the MacTutorial i do this by using `cd MacTutorial` 
  - The last comand `code .` opens the folder in VSCode
 
-![Terminal commands for navigating and creating folders](<Screenshot 2024-02-21 at 16.59.31.png>)
+![Terminal commands for navigating and creating folders](<Pictures/Screenshot 2024-02-21 at 16.59.31.png>)
 
    
  <br>
@@ -141,8 +141,8 @@
 - Run your aplication using `dotnet watch run` this should open your api in your prefered browser
 - `control + c` stops the program from running
 
-<img alt="VSCode file explorer" src="Screenshot 2024-02-21 at 17.15.38.png" width="200" height="200">
-<img alt="Terminal commands for dotnet" src="Screenshot 2024-02-21 at 17.24.05.png" width="700" height="350">
+<img alt="VSCode file explorer" src="Pictures/Screenshot 2024-02-21 at 17.15.38.png" width="200" height="200">
+<img alt="Terminal commands for dotnet" src="Pictures/Screenshot 2024-02-21 at 17.24.05.png" width="700" height="350">
 
 ### Add Packages for EF Core and Code Generator
 - Run the following commands in the terminal
@@ -236,7 +236,7 @@ builder.Services.AddDbContext<LibraryContext>(options =>
 - Open explorer and the new Migrations folder, there should be 3 files `InitialCreate`, `InitialCreate.Designer` and `Snapshot`. Open the Designer file and make sure the tables looks correct
 - If you wanrt to change something dont change it in these files, go back to your Models or DbContext files and change it and then make a new migration with a new name
 - Run `dotnet ef database update` in the terminal
-- <img alt="dotnet ef migration terminal command" src="Screenshot 2024-02-21 at 19.32.44.png" width="600" height="100"> <img alt="vscode explorer showing migration files" src="Screenshot 2024-02-21 at 19.41.51.png" width="300" height="300">
+- <img alt="dotnet ef migration terminal command" src="Pictures/Screenshot 2024-02-21 at 19.32.44.png" width="600" height="100"> <img alt="vscode explorer showing migration files" src="Pictures/Screenshot 2024-02-21 at 19.41.51.png" width="300" height="300">
 
 ### Open Databse
 - Go to Azure Data Studio and update the database. Open the tables folder and make sure they are all there 
@@ -244,4 +244,4 @@ builder.Services.AddDbContext<LibraryContext>(options =>
    
  <br>
   
-![Azure Data Studio Screenshot](<Screenshot 2024-02-21 at 20.35.05.png>)
+![Azure Data Studio Screenshot](<Pictures/Screenshot 2024-02-21 at 20.35.05.png>)
