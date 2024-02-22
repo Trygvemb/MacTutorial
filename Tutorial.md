@@ -60,7 +60,7 @@
 - Change the `sql2022` to the name you want your container to have
 - Change `MySQLHost` to the host name you want to have
 - Change `<YourStrong@Passw0rd>` with a personal password. This will be used to login into you database in Azure Data Studio and VSCode
-![docker commands in terminal](<Picture/Screenshot 2024-02-21 at 15.53.13.png>)
+![docker commands in terminal](<Pictures/Screenshot 2024-02-21 at 15.53.13.png>)
 
 - You are probably getting the following warning `WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested` but as long as you container is running fine its not a problem.
 
