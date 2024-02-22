@@ -127,6 +127,10 @@
 
  - In this example i will go to the root folder using `cd` then into my repoes folder using `cd repoes` then make a new folder called Test using `mkdir Test` then get a list of my folders using `ls`then navigate into that folder i want to run my code in in this example i dont want to use the Test folder but the MacTutorial i do this by using `cd MacTutorial` 
  - The last comand `code .` opens the folder in VSCode
+ - You can do this from eaither the Mac Terminal or VSCode`s integrated terminal
+   
+ <br>
+  
 
 ![Terminal commands for navigating and creating folders](<Pictures/Screenshot 2024-02-21 at 16.59.31.png>)
 
